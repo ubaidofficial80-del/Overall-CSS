@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+font-family:monospace ;
+font-size: 18px;
+
+}
+
+
+body { background-color: black;
+
+
+
+}
+header{
+width: 100%;
+height: 65px;
+background-color: rgb(249, 75, 11);
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 15px 30px;
+}
+a{
+color: rgb(6, 44, 238);
+font-size: 3opx;
+padding: 15px;
+
+}
