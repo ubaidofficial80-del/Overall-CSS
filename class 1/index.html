@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+                <!-- internal css wo hoti hai jo html k andr he style tag ma ki jay -->
+             <style> body{background-color: rgb(226, 226, 7); }  
+              .second  {color: orangered; }
+             </style>
+
+<body>
+                 
+             
+      <div>       
+    <h1 id="head">CSS First Class:</h1>
+
+<h2 id="bottom">Three Types Of CSS:</h2>
+<br>
+  <fieldset ><legend><h1 class="first">External CSS:</h1></legend>
+<p>   External CSS is a method of writing CSS code in a separate .css file and linking it to an HTML document using the link tag in the head section.
+This allows you to apply the same styles to multiple HTML pages without repeating the code in each file. <br> <h4 class="frs">Example: </h4>
+If you change the button color in style.css, it will automatically change on every page that is linked to that file.
+In short: External CSS = "Write once, use everywhere"
+</p></fieldset>
+
+<fieldset><legend><h1 class="second">Internal CSS:</h1></legend>
+<p>    Internal CSS is a method of writing CSS code inside the style tag within the head section  of  a single html  document.
+
+This CSS only applies to that one html  page.
+  </p></fieldset>
+
+<fieldset><legend><h1 style="color: orangered" class="third">Inline CSS:</h1></legend>
+<p>    Inline CSS is a method of writing CSS code directly inside the style attribute of an HTML tag.
+
+It applies styling to only that specific HTML element. </p></fieldset>
+
+<fieldset><legend><h1 class="Three">Types Of Selector:</h1></legend>
+  
+<h3>Universal Selector.</h3><p>All element applies in webpage</p> <b>* {}</b>
+<h3>Type Selector.</h3><p>Matches element names</p><b>h1 , h2 , h3 {}</b>
+<h3>Class  Selector.</h3><p>Matches an element whose class attribute</p><b>. class{}</b>
+<h3>ID  Selector.</h3><P>Matches an element whose id attribute</P><b># id {}</b>
+<div>
+<h3>Child  Selector.</h3><p>Matches an element that is a direct child of another </p><b>div > p {}</b>
+</div>
+<span>
+  <h3>Descendant  Selector.</h3><p>Matches an element that is a descendent of another specified element not just a direct child of that element</p><b>p a {}</b>
+</span>
+
+<h3>Adjacent Sibling  Selector.</h3><h4>direct child</h4><p>Matches an element that is the next sibling of another </p><b>h1+p {}</b>
+<h3>General Sibling Selector</h3><p>Matches an element that is a sibling of another</p><br><span>third brother </span><br><br><span>fourth brother</span><br><br><b>h3~p{}</b>
+
+
+
+
+
+
+
+
+</fieldset>
+      </div>
+
+                 <!-- inline css wo hoti hai jo open tag k andr hi ki jay html mai -->
+                        <h1 style="color: rgb(12, 23, 2); background-color: aquamarine; text-align: center; width: 1200px ;"> inline Css:</h1>
+
+
+
+
+
+</body>
+</html>

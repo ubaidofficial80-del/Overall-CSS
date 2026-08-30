@@ -1,0 +1,73 @@
+body{width: 600px;
+text-align: center;
+text-transform: capitalize;
+}
+     /* universal selector */
+*{text-align: center;
+}
+     /* type selectotr */
+fieldset { 
+border: 5px solid rgb(17, 22, 5);
+border-radius: 10px ;
+padding: 20px;
+}
+div{
+    width: 1200px ;
+    margin: 20px auto;
+}
+    /* class selector */
+.first {  color: orangered; 
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ .frs{ background-color: rgb(17, 205, 230);
+border-radius: 10px;
+ }
+  
+ .Three{ color: rgb(229, 6, 236);}
+     /* id selector */
+#head{  font-size: 100px;
+    font-family:initial;
+height:100px ; text-align: center;
+color: rgb(33, 6, 240);
+ }
+ #bottom{
+    font-size:55px ;
+    color: rgb(107, 8, 245);
+    font-family:initial;
+ }
+ 
+
+    /* child selector  */
+ div>h3 { 
+    color: rgb(10, 50, 248);
+    background-color: aqua;
+ }
+   /* descendant selector */
+span>b {
+background-color: rgb(12, 236, 180);
+color: rgb(17, 10, 1);
+}
+/* adjacent sibling selector */
+h3+h4{
+    background-color: blueviolet;
+}
+   /* general sibling selector  */
+h3~span{
+    background-color: burlywood;
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
